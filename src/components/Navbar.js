@@ -39,9 +39,9 @@ function Navbar() {
       )}
 
       {/* Desktop menu */}
-      <ul className="hidden md:flex space-x-4">
+      <ul className="hidden md:flex space-x-4 ">
         <li><Link to="/" className="text-white">Home</Link></li>
-        <li><Link to="/unit-conversion" className="text-white">Unit Conversion</Link></li>
+        <li><Link to="/unit-conversion" className="text-white whitespace-nowrap">Unit Conversion</Link></li>
       </ul>
     </nav>
   );

@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-gradient-to-r from-gray-700 to-gray-950 text-white flex flex-col md:flex-row justify-between mx-auto p-2 md:p-4">
+    <nav className="bg-gradient-to-r from-gray-700 to-gray-950 text-white flex flex-col md:flex-row justify-between mx-auto p-2 md:p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-white text-xl font-bold">My App</Link>
 
